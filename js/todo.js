@@ -12,8 +12,9 @@ function saveTodos() {
 
 function removeTodo(event) {
     const li = event.target.parentElement;
-    
+    todoArray = todoArray.filter((todo) => todo.id !== parseInt(li.id));
     li.remove();
+    saveTodos()
 }
 
 function printTodo(newToDo) {
