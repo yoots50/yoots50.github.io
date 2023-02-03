@@ -1,6 +1,6 @@
 <h1>Nomad Coders Final Challenge</h1>
-노마드코더(https://nomadcoders.co/)의 바닐라JS 챌린지 졸업작품입니다.<br>
-<img width="80%" src="https://user-images.githubusercontent.com/102408620/216559715-098cc4a9-94df-4e35-8baa-93f9d0c90be6.PNG"/>
+노마드코더(https://nomadcoders.co/)의 바닐라JS 챌린지 졸업작품입니다.<br><br>
+<img width="100%" src="https://user-images.githubusercontent.com/102408620/216559715-098cc4a9-94df-4e35-8baa-93f9d0c90be6.PNG"/>
 
 <h2>구현된 기능</h2>
 
