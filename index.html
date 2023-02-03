@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <div class="background-region"></div>
+    <div class="contents hidden">
+        <div class="navbar">
+            <div class="left-navbar-region">
+            </div>
+            <div class="right-navbar-region">
+                <button type="submit" class="logout-button">logout
+            </div>
+        </div>
+        <div class="center">
+            <div class="upper-region"></div>
+            <div class="clock-region">
+                <div class="clock">
+                    00:00
+                </div>
+            </div>
+            <div class="greetings-region">
+                <span class="greetings">
+
+                </span>
+            </div>
+            <div class="focus-region">
+                <span class="focus">
+                    What's your main focus for today?<br>
+                </span>
+                <form class="focus-form">
+                    <input class="focus-input" type="text" placeholder="ㅤ">
+                </form>
+            </div>
+            <!-- <div class="lower-region"></div> -->
+        </div>
+        <div class="under-navbar">
+            <div class="left-under-navbar">
+                <span class="background-inform">
+                    <!-- insert something -->
+                </span>
+            </div>
+            <div class="right-under-navbar">
+                <div class="todo-list">
+                    <div class="todo-title">Todo-List</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="first-greetings-region">
+        <div class="question">
+            What's your name?
+        </div>
+        <form class="greetings-form">
+            <input class="greetings-input" type="text" placeholder="ㅤ">
+        </form>
+        <span class="greetings hidden">
+
+        </span>
+    </div>
+    
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/greetings.js"></script>
+</body>
+</html>
